@@ -135,9 +135,12 @@
   }
 }
 
+.container {
+  text-align: center;
+}
 .container-content {
   margin: -5px auto;
-  width: 1000px;
+  max-width: 1000px;
   background-color: #f1eaea;
   box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
@@ -201,8 +204,7 @@
   .section2-content {
     display: flex;
     flex: 0 0 50%;
-    justify-content: center;
-
+    margin: 0px 136px;
     h1 {
       color: darkblue;
       font-size: 90px;

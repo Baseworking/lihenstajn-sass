@@ -1,3 +1,5 @@
+// Galery swiper
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

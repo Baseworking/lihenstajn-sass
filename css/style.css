@@ -136,9 +136,12 @@ img {
       font-family: "Roboto", sans-serif;
       font-weight: 800; }
 
+.container {
+  text-align: center; }
+
 .container-content {
   margin: -5px auto;
-  width: 1000px;
+  max-width: 1000px;
   background-color: #f1eaea;
   -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.2); }
@@ -174,20 +177,11 @@ img {
   width: 80%;
   font-family: "Roboto", sans-serif;
   color: #666666;
-  font-size: 18px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-  .section1-help a {
-    text-decoration: none; }
+  font-size: 18px; }
   .section1-help:hover {
     font-size: 30px;
     border-bottom: 3px blue solid;
-    color: darkblue;
-    cursor: pointer; }
+    color: darkblue; }
 
 .section1-helper {
   bottom: 15px;
@@ -214,9 +208,7 @@ img {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
+    margin: 0px 136px; }
     .section2 .section2-content h1 {
       color: darkblue;
       font-size: 90px;
